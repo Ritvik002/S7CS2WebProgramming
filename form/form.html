@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel = "stylesheet" href = "styles.css">
+</head>
+<body>
+    <form onreset="return confirm('Do you want to clear the form?');">
+        <table border="1">
+            <tr>
+                <th colspan="2">Registration Form</th>
+            </tr>
+            <tr>
+                <td>Enter Name</td>
+                <td><input type="text" name="name" placeholder="Enter your name" required></td>
+            </tr>
+            <tr>
+                <td>Enter Password</td>
+                <td><input type="password" name="password" placeholder="Enter your Password" required></td>
+            </tr>
+            <tr>
+                <td>Enter Address</td>
+                <td><textarea name="address" placeholder="Enter your address" required></textarea></td>
+            </tr>
+            <tr>
+                <td>Select Game</td>
+                <td>
+                    <label>
+                        <input type="checkbox" name="Football">
+                        Football
+                    </label>
+                    <label>
+                        <input type="checkbox" name="Basketball">
+                        Basketball
+                    </label>
+                    <label>
+                        <input type="checkbox" name="Volleyball">
+                        Volleyball
+                    </label>
+                    <label>
+                        <input type="checkbox" name="Cricket">
+                        Cricket
+                    </label>
+                    <label>
+                        <input type="checkbox" name="Hockey">
+                        Hockey
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>Select Gender</td>
+                <td>
+                    <input type="radio" name="gender" value="Male" required>Male
+                    <input type="radio" name="gender" value="Female" required>Female
+                </td>
+            </tr>
+            <tr>
+                <td>Select Your Age</td>
+                <td>
+                    <input type="number" name="age" min="12" max="89" placeholder="Select" required>
+                </td>
+            </tr>
+            <tr>
+                <td>Select Photo</td>
+                <td>
+                    <input type="file" name="photo">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button type="button">Click Me</button>
+                    <button type="submit">Submit Form</button>
+                    <button type="reset">Clear</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: white;
+}
+table {    justify-content: center;
+    width: 160%;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #000;
+}
+th {
+    background-color: #ffff99;
+    color: red;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+}
+td {
+    background-color: #00bfff;
+    color: #000;
+}
+input[type="text"], input[type="password"], input[type="number"], textarea, input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+label{
+    display: block;
+}
+
+button{
+    width: 30%;
+    background-color: white;
+    border: 0px solid;
+    padding: 10px;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
