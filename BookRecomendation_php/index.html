@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books Recommender</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Books Recommender</h1>
+        <div id="availableTagsContainer">
+            <h3 class="available-tags">Available Tags:</h3>
+        </div>
+        <div class="tag-input">
+            <input type="text" id="tagInput" placeholder="Enter tags (e.g., romance, comedy)">
+            <button id="addTagBtn">Add Tag</button>
+        </div>
+        <div id="tagContainer" class="tag-container"></div>
+        <div id="bookContainer" class="book-container"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

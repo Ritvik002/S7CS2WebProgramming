@@ -1,0 +1,40 @@
+{
+    "tags": [
+      {
+        "id": 1,
+        "name": "comedy"
+      },
+      {
+        "id": 2,
+        "name": "romance"
+      },
+      {
+        "id": 3,
+        "name": "action"
+      },
+      {
+        "id": 4,
+        "name": "drama"
+      },
+      {
+        "id": 5,
+        "name": "adventure"
+      },
+      {
+        "id": 6,
+        "name": "sci-fi"
+      },
+      {
+        "id": 7,
+        "name": "thriller"
+      },
+      {
+        "id": 8,
+        "name": "fantasy"
+      },
+      {
+        "id": 9,
+        "name": "horror"
+      }
+    ]
+  }

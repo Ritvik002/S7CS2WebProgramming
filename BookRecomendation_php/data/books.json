@@ -1,0 +1,52 @@
+{
+    "books": [
+      {
+        "id": 1,
+        "title": "The Hobbit",
+        "year": 1937,
+        "rating": 4.6,
+        "image": "https://via.placeholder.com/250x200.png?text=The+Hobbit",
+        "tags": ["adventure", "fantasy"]
+      },
+      {
+        "id": 2,
+        "title": "Verity",
+        "year": 2018,
+        "rating": 4.3,
+        "image": "https://via.placeholder.com/250x200.png?text=Verity",
+        "tags": ["romance", "thriller"]
+      },
+      {
+        "id": 3,
+        "title": "Alice in Wonderland",
+        "year": 1865,
+        "rating": 4.3,
+        "image": "https://via.placeholder.com/250x200.png?text=Alice+in+Wonderland",
+        "tags": ["adventure", "fantasy"]
+      },
+      {
+        "id": 4,
+        "title": "The Martian",
+        "year": 2011,
+        "rating": 4.4,
+        "image": "https://via.placeholder.com/250x200.png?text=The+Martian",
+        "tags": ["adventure", "thriller"]
+      },
+      {
+        "id": 5,
+        "title": "The Hitchhiker's Guide To The Galaxy",
+        "year": 1979,
+        "rating": 4.6,
+        "image": "https://via.placeholder.com/250x200.png?text=The+Hitchhikers+Guide+To+The+Galaxy",
+        "tags": ["sci-fi"]
+      },
+      {
+        "id": 6,
+        "title": "Dark Matter",
+        "year": 2016,
+        "rating": 4.1,
+        "image": "https://via.placeholder.com/250x200.png?text=Dark+Matter",
+        "tags": ["sci-fi", "adventure","thriller"]
+      }
+    ]
+  }
